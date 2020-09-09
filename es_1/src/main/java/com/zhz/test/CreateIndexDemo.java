@@ -29,7 +29,7 @@ public class CreateIndexDemo {
                 .put("number_of_replicas", 1);//备份数
 
 
-//        2准备关于索引的mappings
+//        2准备关于索引的mappings:
 //        "mappings":{
 //        "man":{
 //        "properties":{
@@ -49,6 +49,9 @@ public class CreateIndexDemo {
                         .startObject("birthday")
                             .field("type","date")
                             .field("format","yyyy-MM-dd")
+                        .endObject()
+                        .startObject("mobile")
+                            .field("type","")
                         .endObject()
                     .endObject()
                 .endObject();

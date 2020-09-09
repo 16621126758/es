@@ -10,8 +10,6 @@ import org.junit.jupiter.params.shadow.com.univocity.parsers.annotations.Format;
 import java.util.Date;
 
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
 public class Persion {
 
     @JsonIgnore
